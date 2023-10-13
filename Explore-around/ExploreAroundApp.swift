@@ -8,10 +8,11 @@
 import SwiftUI
 
 @main
-struct Explore_aroundApp: App {
+struct ExploreAroundApp: App {
     var body: some Scene {
         WindowGroup {
             LaunchView()
+                .environmentObject(ContentModel())
         }
     }
 }
