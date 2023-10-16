@@ -15,6 +15,7 @@
 		A30FCD2D2ADC594B0086928E /* BusinessList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30FCD2C2ADC594B0086928E /* BusinessList.swift */; };
 		A30FCD2F2ADC5BB10086928E /* BusinessSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30FCD2E2ADC5BB10086928E /* BusinessSectionHeader.swift */; };
 		A30FCD312ADC5C780086928E /* BusinessSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30FCD302ADC5C780086928E /* BusinessSection.swift */; };
+		A30FCD332ADC98F40086928E /* BusinessRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30FCD322ADC98F40086928E /* BusinessRow.swift */; };
 		A35864D62AD93C990032A7A4 /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35864D52AD93C990032A7A4 /* ContentModel.swift */; };
 		A35864D92AD96EC50032A7A4 /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35864D82AD96EC50032A7A4 /* Business.swift */; };
 		A35864DB2AD96ECC0032A7A4 /* BusinessSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35864DA2AD96ECC0032A7A4 /* BusinessSearch.swift */; };
@@ -31,6 +32,7 @@
 		A30FCD2C2ADC594B0086928E /* BusinessList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessList.swift; sourceTree = "<group>"; };
 		A30FCD2E2ADC5BB10086928E /* BusinessSectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessSectionHeader.swift; sourceTree = "<group>"; };
 		A30FCD302ADC5C780086928E /* BusinessSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessSection.swift; sourceTree = "<group>"; };
+		A30FCD322ADC98F40086928E /* BusinessRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessRow.swift; sourceTree = "<group>"; };
 		A35864D52AD93C990032A7A4 /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
 		A35864D72AD93E100032A7A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		A35864D82AD96EC50032A7A4 /* Business.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 				A30FCD2C2ADC594B0086928E /* BusinessList.swift */,
 				A30FCD2E2ADC5BB10086928E /* BusinessSectionHeader.swift */,
 				A30FCD302ADC5C780086928E /* BusinessSection.swift */,
+				A30FCD322ADC98F40086928E /* BusinessRow.swift */,
 			);
 			path = List;
 			sourceTree = "<group>";
@@ -228,6 +231,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A30E66DA2AD81A6100E3B92A /* LaunchView.swift in Sources */,
+				A30FCD332ADC98F40086928E /* BusinessRow.swift in Sources */,
 				A30FCD2A2ADC4BBB0086928E /* HomeView.swift in Sources */,
 				A35864D92AD96EC50032A7A4 /* Business.swift in Sources */,
 				A30FCD2F2ADC5BB10086928E /* BusinessSectionHeader.swift in Sources */,
