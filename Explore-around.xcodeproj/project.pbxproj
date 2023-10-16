@@ -17,6 +17,7 @@
 		A30FCD312ADC5C780086928E /* BusinessSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30FCD302ADC5C780086928E /* BusinessSection.swift */; };
 		A30FCD332ADC98F40086928E /* BusinessRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30FCD322ADC98F40086928E /* BusinessRow.swift */; };
 		A32F24112ADD44A80018F993 /* BusinessDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32F24102ADD44A80018F993 /* BusinessDetail.swift */; };
+		A32F24142ADD83470018F993 /* BusinessMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32F24132ADD83470018F993 /* BusinessMap.swift */; };
 		A35864D62AD93C990032A7A4 /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35864D52AD93C990032A7A4 /* ContentModel.swift */; };
 		A35864D92AD96EC50032A7A4 /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35864D82AD96EC50032A7A4 /* Business.swift */; };
 		A35864DB2AD96ECC0032A7A4 /* BusinessSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35864DA2AD96ECC0032A7A4 /* BusinessSearch.swift */; };
@@ -35,6 +36,7 @@
 		A30FCD302ADC5C780086928E /* BusinessSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessSection.swift; sourceTree = "<group>"; };
 		A30FCD322ADC98F40086928E /* BusinessRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessRow.swift; sourceTree = "<group>"; };
 		A32F24102ADD44A80018F993 /* BusinessDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessDetail.swift; sourceTree = "<group>"; };
+		A32F24132ADD83470018F993 /* BusinessMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessMap.swift; sourceTree = "<group>"; };
 		A35864D52AD93C990032A7A4 /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
 		A35864D72AD93E100032A7A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		A35864D82AD96EC50032A7A4 /* Business.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				A30FCD292ADC4BBB0086928E /* HomeView.swift */,
+				A32F24122ADD83330018F993 /* Map */,
 				A30FCD2B2ADC59430086928E /* List */,
 			);
 			path = Home;
@@ -161,6 +164,14 @@
 				A32F24102ADD44A80018F993 /* BusinessDetail.swift */,
 			);
 			path = Detail;
+			sourceTree = "<group>";
+		};
+		A32F24122ADD83330018F993 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				A32F24132ADD83470018F993 /* BusinessMap.swift */,
+			);
+			path = Map;
 			sourceTree = "<group>";
 		};
 		A35864DC2AD977C30032A7A4 /* Helpers */ = {
@@ -250,6 +261,7 @@
 				A32F24112ADD44A80018F993 /* BusinessDetail.swift in Sources */,
 				A35864DB2AD96ECC0032A7A4 /* BusinessSearch.swift in Sources */,
 				A30FCD2D2ADC594B0086928E /* BusinessList.swift in Sources */,
+				A32F24142ADD83470018F993 /* BusinessMap.swift in Sources */,
 				A30FCD312ADC5C780086928E /* BusinessSection.swift in Sources */,
 				A35864D62AD93C990032A7A4 /* ContentModel.swift in Sources */,
 				A35864DE2AD977CD0032A7A4 /* Constants.swift in Sources */,
