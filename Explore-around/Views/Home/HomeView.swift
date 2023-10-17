@@ -11,6 +11,7 @@ struct HomeView: View {
     
     @EnvironmentObject var model: ContentModel
     @State var isMapShowing = false
+    @State var selectedBusiness: Business?
     
     var body: some View {
         
@@ -34,8 +35,11 @@ struct HomeView: View {
                     .padding([.horizontal, .top])
                     .navigationBarBackButtonHidden(true)
                 } else {
-                    BusinessMap()
+                    BusinessMap(selectedBusiness: $selectedBusiness)
                         .ignoresSafeArea()
+                        .sheet(item: $selectedBusiness) { business in
+                            BusinessDetail(business: business)
+                        }
                 }
             }
         } else{
