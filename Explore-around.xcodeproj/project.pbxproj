@@ -18,6 +18,11 @@
 		A30FCD332ADC98F40086928E /* BusinessRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30FCD322ADC98F40086928E /* BusinessRow.swift */; };
 		A32F24112ADD44A80018F993 /* BusinessDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32F24102ADD44A80018F993 /* BusinessDetail.swift */; };
 		A32F24142ADD83470018F993 /* BusinessMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32F24132ADD83470018F993 /* BusinessMap.swift */; };
+		A33346E12ADFDDF7006311A6 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33346E02ADFDDF7006311A6 /* OnboardingView.swift */; };
+		A33346E32ADFE592006311A6 /* LocationDeniedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33346E22ADFE592006311A6 /* LocationDeniedView.swift */; };
+		A336ECA42ADE8B56009E8DCA /* DirectionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A336ECA32ADE8B56009E8DCA /* DirectionsView.swift */; };
+		A336ECA62ADE8BD2009E8DCA /* BusinessTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A336ECA52ADE8BD2009E8DCA /* BusinessTitle.swift */; };
+		A336ECA82ADE93C8009E8DCA /* DirectionsMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = A336ECA72ADE93C8009E8DCA /* DirectionsMap.swift */; };
 		A35864D62AD93C990032A7A4 /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35864D52AD93C990032A7A4 /* ContentModel.swift */; };
 		A35864D92AD96EC50032A7A4 /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35864D82AD96EC50032A7A4 /* Business.swift */; };
 		A35864DB2AD96ECC0032A7A4 /* BusinessSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35864DA2AD96ECC0032A7A4 /* BusinessSearch.swift */; };
@@ -37,6 +42,11 @@
 		A30FCD322ADC98F40086928E /* BusinessRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessRow.swift; sourceTree = "<group>"; };
 		A32F24102ADD44A80018F993 /* BusinessDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessDetail.swift; sourceTree = "<group>"; };
 		A32F24132ADD83470018F993 /* BusinessMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessMap.swift; sourceTree = "<group>"; };
+		A33346E02ADFDDF7006311A6 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		A33346E22ADFE592006311A6 /* LocationDeniedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDeniedView.swift; sourceTree = "<group>"; };
+		A336ECA32ADE8B56009E8DCA /* DirectionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionsView.swift; sourceTree = "<group>"; };
+		A336ECA52ADE8BD2009E8DCA /* BusinessTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessTitle.swift; sourceTree = "<group>"; };
+		A336ECA72ADE93C8009E8DCA /* DirectionsMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionsMap.swift; sourceTree = "<group>"; };
 		A35864D52AD93C990032A7A4 /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
 		A35864D72AD93E100032A7A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		A35864D82AD96EC50032A7A4 /* Business.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
@@ -114,10 +124,10 @@
 		A30E66E72AD81B5700E3B92A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				A30E66D92AD81A6100E3B92A /* LaunchView.swift */,
 				A30FCD282ADC4BA80086928E /* Home */,
 				A30FCD272ADC4BA00086928E /* Denied */,
 				A30FCD262ADC4B980086928E /* Onboarding */,
-				A30E66D92AD81A6100E3B92A /* LaunchView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -125,6 +135,7 @@
 		A30FCD262ADC4B980086928E /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
+				A33346E02ADFDDF7006311A6 /* OnboardingView.swift */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -132,6 +143,7 @@
 		A30FCD272ADC4BA00086928E /* Denied */ = {
 			isa = PBXGroup;
 			children = (
+				A33346E22ADFE592006311A6 /* LocationDeniedView.swift */,
 			);
 			path = Denied;
 			sourceTree = "<group>";
@@ -162,6 +174,8 @@
 			isa = PBXGroup;
 			children = (
 				A32F24102ADD44A80018F993 /* BusinessDetail.swift */,
+				A336ECA32ADE8B56009E8DCA /* DirectionsView.swift */,
+				A336ECA52ADE8BD2009E8DCA /* BusinessTitle.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -170,6 +184,7 @@
 			isa = PBXGroup;
 			children = (
 				A32F24132ADD83470018F993 /* BusinessMap.swift */,
+				A336ECA72ADE93C8009E8DCA /* DirectionsMap.swift */,
 			);
 			path = Map;
 			sourceTree = "<group>";
@@ -252,18 +267,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A336ECA82ADE93C8009E8DCA /* DirectionsMap.swift in Sources */,
+				A33346E32ADFE592006311A6 /* LocationDeniedView.swift in Sources */,
 				A30E66DA2AD81A6100E3B92A /* LaunchView.swift in Sources */,
 				A30FCD332ADC98F40086928E /* BusinessRow.swift in Sources */,
+				A336ECA42ADE8B56009E8DCA /* DirectionsView.swift in Sources */,
 				A30FCD2A2ADC4BBB0086928E /* HomeView.swift in Sources */,
 				A35864D92AD96EC50032A7A4 /* Business.swift in Sources */,
 				A30FCD2F2ADC5BB10086928E /* BusinessSectionHeader.swift in Sources */,
 				A30E66D82AD81A6100E3B92A /* ExploreAroundApp.swift in Sources */,
 				A32F24112ADD44A80018F993 /* BusinessDetail.swift in Sources */,
 				A35864DB2AD96ECC0032A7A4 /* BusinessSearch.swift in Sources */,
+				A336ECA62ADE8BD2009E8DCA /* BusinessTitle.swift in Sources */,
 				A30FCD2D2ADC594B0086928E /* BusinessList.swift in Sources */,
 				A32F24142ADD83470018F993 /* BusinessMap.swift in Sources */,
 				A30FCD312ADC5C780086928E /* BusinessSection.swift in Sources */,
 				A35864D62AD93C990032A7A4 /* ContentModel.swift in Sources */,
+				A33346E12ADFDDF7006311A6 /* OnboardingView.swift in Sources */,
 				A35864DE2AD977CD0032A7A4 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
